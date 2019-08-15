@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+a1= Artist.create({:name => "name1", :bio => "biobiobio"})
+g1= Genre.create({:name => "genre1"})
+
+s1= Song.create({:name => "songname1", :artist_id => a1.id, :genre_id => g1.id})
